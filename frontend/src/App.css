@@ -1,0 +1,117 @@
+/* ===== BASE ===== */
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #f5f7fb;
+  color: #111827;
+}
+
+/* ===== CONTAINER ===== */
+.page-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ===== TITLE ===== */
+.page-container h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* ===== CARD ===== */
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+/* ===== GRID ===== */
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* ===== FORM ===== */
+.form-container h2 {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+/* ===== BUTTON ===== */
+.btn {
+  width: 100%;
+  background: #00d09c;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #00b98c;
+}
+
+/* ===== TABLE ===== */
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background: #f3f4f6;
+  font-weight: 600;
+}
+
+tr {
+  border-bottom: 1px solid #eee;
+}
+
+/* ===== CHAT ===== */
+.chatbox-container p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+/* ===== CHART ===== */
+.chart-container {
+  width: 100%;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .main-content {
+    grid-template-columns: 1fr;
+  }
+}

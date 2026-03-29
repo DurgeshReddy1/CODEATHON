@@ -1,0 +1,65 @@
+/* ChatBox.css */
+
+.chatbox-container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px 25px;
+  background-color: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  font-family: 'Arial', sans-serif;
+  color: #111827;
+}
+
+.chatbox-container h3 {
+  margin-bottom: 12px;
+  font-size: 1.25rem;
+  color: #4f46e5;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 5px;
+}
+
+.chatbox-container p {
+  margin: 8px 0;
+  padding-left: 8px;
+  line-height: 1.5;
+  background-color: #f9fafb;
+  border-left: 4px solid #4f46e5;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 0.95rem;
+  transition: background-color 0.3s;
+}
+
+.chatbox-container p:hover {
+  background-color: #eef2ff;
+}
+
+.chatbox-container p::before {
+  margin-right: 6px;
+}
+
+/* Specific styles for recommendations and predictions */
+.chatbox-container .recommendation {
+  border-left-color: #10b981; /* green for advice */
+}
+
+.chatbox-container .prediction {
+  border-left-color: #f59e0b; /* amber for future prediction */
+  font-weight: 500;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .chatbox-container {
+    padding: 15px 20px;
+  }
+
+  .chatbox-container p {
+    font-size: 0.9rem;
+  }
+
+  .chatbox-container h3 {
+    font-size: 1.1rem;
+  }
+}

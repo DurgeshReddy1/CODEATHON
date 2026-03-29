@@ -1,0 +1,19 @@
+/* AllocationChart.css */
+
+.chart-container {
+  width: 100%;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.chart-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}

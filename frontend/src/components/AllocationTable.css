@@ -1,0 +1,50 @@
+/* AllocationTable.css */
+
+.table-container {
+  width: 95%;
+  max-width: 900px;
+  margin: 30px auto;
+  overflow-x: auto;
+  background-color: #f9fafb;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.allocation-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.allocation-table th,
+.allocation-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.allocation-table th {
+  background-color: #4f46e5;
+  color: #fff;
+  font-weight: 600;
+}
+
+.allocation-table tr:nth-child(even) {
+  background-color: #f3f4f6;
+}
+
+.allocation-table tr:hover {
+  background-color: #e0e7ff;
+  transition: 0.2s;
+}
+
+.allocation-table td {
+  font-size: 14px;
+  color: #333;
+}
+
+.allocation-table th:first-child,
+.allocation-table td:first-child {
+  text-align: left;
+}
